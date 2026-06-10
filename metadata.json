@@ -1,0 +1,8 @@
+{
+  "name": "Ambiance Joy Nursing",
+  "description": "Premium, modern home healthcare and nursing services in Houston, Texas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

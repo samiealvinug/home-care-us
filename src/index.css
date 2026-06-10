@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Redefining slate colors to a beautiful, highly friendly warm cream and soft wood-stone palette */
+  --color-slate-50: #fbf9f5;      /* Comfort soft vanilla/cream background */
+  --color-slate-100: #f4eee2;     /* Warm biscuit dividers & subtle accents */
+  --color-slate-200: #e9e0cd;     /* Soft linen highlight */
+  --color-slate-300: #d6caaf;     /* Oatmeal-beige */
+  --color-slate-400: #9e8d7a;     /* Warm light wood grey */
+  --color-slate-500: #7b6a57;     /* Cozy bark grey */
+  --color-slate-605: #5c4e3c;     /* Soft chocolate text */
+  --color-slate-650: #4f4030;     /* Rich cocoa container text */
+  --color-slate-700: #423527;     /* Warm dark wood */
+  --color-slate-800: #33261a;     /* Deep home-cozy timber brown */
+  --color-slate-850: #291d12;     /* Dark chocolate accent */
+  --color-slate-900: #20140a;     /* Soft warm earthy charcoal */
+  --color-slate-950: #140b04;     /* Hearth black */
+
+  /* Redefining teal colors to beautiful warm sunlit honey-golds and cheerful peachy ambers, representing comfort, light and optimism */
+  --color-teal-50: #feFAF0;       /* Sweet sunbeams cream */
+  --color-teal-100: #fdf0d0;      /* Dreamy light elderflower cream */
+  --color-teal-200: #fbe09a;      /* Soft warm summer honey */
+  --color-teal-300: #f8c85c;      /* Happy apricot gold */
+  --color-teal-350: #f1b73e;      /* Warm golden apricot link */
+  --color-teal-400: #eba525;      /* Sunbeam orange-gold */
+  --color-teal-450: #db9316;      /* Rich amber-tea glaze */
+  --color-teal-500: #d99a22;      /* Main friendly sunny-amber accent */
+  --color-teal-600: #c28310;      /* Warm elderberry honey */
+  --color-teal-700: #a16b08;      /* Warm golden tree wood */
+  --color-teal-800: #825302;      /* Antique support gold */
+  --color-teal-900: #5c3900;      /* Earthy golden brown */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Base body typography smoothing */
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
