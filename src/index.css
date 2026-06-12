@@ -33,7 +33,14 @@
   --color-teal-600: #c28310;      /* Warm elderberry honey */
   --color-teal-700: #a16b08;      /* Warm golden tree wood */
   --color-teal-800: #825302;      /* Antique support gold */
-  --color-teal-900: #5c3900;      /* Earthy golden brown */
+  --color-teal-900: #5c3900;       /* Earthy golden brown */
+
+  /* Brand logo color coordination (Friendly Home Care palette) */
+  --color-brand-navy: #0a2540;     /* Deep navy from the roof and text */
+  --color-brand-purple: #833b82;   /* Amethyst purple from the heart and Joy text */
+  --color-brand-teal: #137a7f;     /* Friendly teal from the leaf and Care Home text */
+  --color-brand-cream: #fdfbf7;    /* High-comfort warm vanilla room background */
+  --color-brand-cream-dark: #f4eee1; /* Cozy linen cream */
 }
 
 @keyframes fadeIn {
