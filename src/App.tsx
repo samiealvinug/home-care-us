@@ -221,10 +221,10 @@ export default function App() {
               
               <div className="py-1">
                 <a 
-                  href="tel:8328147008" 
+                  href="tel:8325065024" 
                   className="bg-red-600 hover:bg-red-700 text-white font-extrabold text-base tracking-tight py-3 px-5 rounded-xl block shadow-lg hover:shadow-xl transition-all cursor-pointer text-center"
                 >
-                  📞 (832) 814-7008
+                  📞 (832) 506-5024
                 </a>
               </div>
 

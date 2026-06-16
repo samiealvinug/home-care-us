@@ -63,11 +63,11 @@ export default function Home({ setActiveTab, setBookingModalOpen, setSelectedSer
                   Schedule Free Assessment
                 </button>
                 <a 
-                  href="tel:8328147008"
+                  href="tel:8325065024"
                   className="bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 font-bold px-7 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer"
                 >
                   <Phone className="w-4 h-4 text-brand-teal shrink-0" />
-                  <span>Call (832) 814-7008</span>
+                  <span>Call (832) 506-5024</span>
                 </a>
               </div>
             </div>

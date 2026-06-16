@@ -56,7 +56,7 @@ export default function Header({ activeTab, setActiveTab, openBookingModal }: He
           {/* Action Call Button with brand colors */}
           <div className="hidden md:flex items-center gap-3">
             <a 
-              href="tel:8328147008"
+              href="tel:8325065024"
               className="px-4 py-2 border border-slate-200 hover:border-brand-cream-dark rounded-lg text-slate-700 text-sm font-semibold transition-all hover:bg-slate-50 flex items-center gap-2"
             >
               <Phone className="w-4 h-4 text-brand-teal" />
@@ -73,7 +73,7 @@ export default function Header({ activeTab, setActiveTab, openBookingModal }: He
           {/* Mobile Menu Trigger */}
           <div className="flex md:hidden items-center gap-2">
             <a 
-              href="tel:8328147008"
+              href="tel:8325065024"
               className="p-2.5 text-brand-teal bg-brand-cream hover:bg-brand-cream-dark border border-brand-cream-dark rounded-xl transition-all"
               title="Call immediately"
             >
@@ -121,10 +121,10 @@ export default function Header({ activeTab, setActiveTab, openBookingModal }: He
                 Book Consultation
               </button>
               <a 
-                href="tel:8328147008"
+                href="tel:8325065024"
                 className="w-full border border-slate-200 text-slate-700 font-semibold text-center py-2.5 rounded-lg text-sm hover:bg-slate-50 flex items-center justify-center gap-1.5 transition-all cursor-pointer"
               >
-                <Phone className="w-4 h-4 text-brand-teal" /> (832) 814-7008
+                <Phone className="w-4 h-4 text-brand-teal" /> (832) 506-5024
               </a>
             </div>
           </div>

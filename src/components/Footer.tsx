@@ -39,11 +39,11 @@ export default function Footer({ setActiveTab, openBookingModal }: FooterProps) 
           <div className="grid gap-3.5 text-sm font-medium text-left">
             <div className="flex items-start gap-2.5">
               <MapPin className="w-5 h-5 text-brand-teal shrink-0 mt-0.5" />
-              <span className="text-slate-300">4020 Saint Peter Lane, <br />Houston, TX 77045</span>
+              <span className="text-slate-300">9515 Sedge Wren Court, <br />Houston, TX 77083</span>
             </div>
             <div className="flex items-center gap-2.5">
               <Phone className="w-5 h-5 text-brand-teal shrink-0" />
-              <a href="tel:8328147008" className="hover:text-white transition-colors text-slate-200 font-semibold">(832) 814-7008</a>
+              <a href="tel:8325065024" className="hover:text-white transition-colors text-slate-200 font-semibold">(832) 506-5024</a>
             </div>
             <div className="flex items-center gap-2.5">
               <Mail className="w-5 h-5 text-brand-teal shrink-0" />

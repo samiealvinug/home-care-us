@@ -52,7 +52,7 @@ export default function BookingForm({ initialService = 'Skilled Nursing', onSucc
         setErrorMsg(data.error || "A submission mismatch occurred. Please try again.");
       }
     } catch (err) {
-      setErrorMsg("Network connection error. Please call us directly at (832) 814-7008.");
+      setErrorMsg("Network connection error. Please call us directly at (832) 506-5024.");
     } finally {
       setSubmitting(false);
     }

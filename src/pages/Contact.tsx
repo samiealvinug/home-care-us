@@ -31,7 +31,7 @@ export default function Contact({ initialService }: ContactProps) {
                 <Phone className="w-5 h-5 text-brand-teal shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-white">Call 24/7 Helpline:</strong>
-                  <a href="tel:8328147008" className="text-brand-teal font-extrabold text-sm block mt-0.5 hover:underline">(832) 814-7008</a>
+                  <a href="tel:8325065024" className="text-brand-teal font-extrabold text-sm block mt-0.5 hover:underline">(832) 506-5024</a>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ export default function Contact({ initialService }: ContactProps) {
                 <div>
                   <strong className="block text-white">Administration Venue:</strong>
                   <span className="text-slate-300 block mt-0.5 leading-normal">
-                    4020 Saint Peter Lane, Houston, TX 77045
+                    9515 Sedge Wren Court, Houston, TX 77083
                   </span>
                   <span className="block text-[10px] text-slate-500 mt-1">Conferences by clinician appointment only.</span>
                 </div>
@@ -76,10 +76,10 @@ export default function Contact({ initialService }: ContactProps) {
               <MapPin className="text-brand-purple w-4 h-4 animate-bounce" />
               <span>Ambiance Joy Service Coordinates</span>
             </h3>
-            <span className="text-xs text-slate-500 block mt-0.5">4020 Saint Peter Lane, Houston, TX 77045</span>
+            <span className="text-xs text-slate-500 block mt-0.5">9515 Sedge Wren Court, Houston, TX 77083</span>
           </div>
           <a 
-            href="https://maps.google.com/?q=4020+Saint+Peter+Lane,+Houston,+TX+77045"
+            href="https://maps.google.com/?q=9515+Sedge+Wren+Court,+Houston,+TX+77083"
             target="_blank"
             rel="noreferrer"
             className="bg-brand-cream hover:bg-brand-cream-dark border border-brand-cream-dark text-brand-navy px-3.5 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-colors cursor-pointer"

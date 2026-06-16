@@ -70,7 +70,7 @@ export default function LiveChat() {
       const errorMsg: ChatMessage = {
         id: `m-err-${Date.now()}`,
         role: 'model',
-        text: "I want to make sure your family has direct answers. Our on-call nurse intake desk is available 24/7. Could you please call us directly at (832) 814-7008?",
+        text: "I want to make sure your family has direct answers. Our on-call nurse intake desk is available 24/7. Could you please call us directly at (832) 506-5024?",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
       setMessages((prev) => [...prev, errorMsg]);
