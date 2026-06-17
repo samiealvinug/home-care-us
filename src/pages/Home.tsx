@@ -101,14 +101,13 @@ export default function Home({ setActiveTab, setBookingModalOpen, setSelectedSer
 
       {/* Whole-Person Standards Banner stats */}
       <section className="bg-brand-cream border-y border-brand-cream-dark py-8 px-4" id="stats-ribbon">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
           {[
             { value: "500+", label: "Seniors & Families Served", color: "text-brand-purple" },
             { value: "98%", label: "Satisfaction Quality Audit", color: "text-brand-teal" },
-            { value: "24/7", label: "Helpline Clinical Intake", color: "text-brand-navy" },
-            { value: "Licensed", label: "Texas HHS ID #7008", color: "text-brand-purple" }
+            { value: "24/7", label: "Helpline Clinical Intake", color: "text-brand-navy" }
           ].map((stat, idx) => (
-            <div key={idx} className="text-center space-y-1 border-r last:border-r-0 border-brand-cream-dark px-4">
+            <div key={idx} className="text-center space-y-1 md:border-r last:border-r-0 border-brand-cream-dark px-4">
               <div className={`text-xl sm:text-2xl font-serif font-bold ${stat.color} tracking-tight`}>{stat.value}</div>
               <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{stat.label}</div>
             </div>

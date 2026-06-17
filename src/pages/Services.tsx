@@ -30,7 +30,6 @@ export default function Services({ selectedServiceId, setSelectedServiceId, setB
       
       {/* Title & header context with brand coordination */}
       <div className="text-center max-w-xl mx-auto space-y-2">
-        <span className="block text-xs font-bold text-brand-purple uppercase tracking-widest font-mono">Licensed Solutions</span>
         <h1 className="text-3xl md:text-4xl font-serif text-brand-navy leading-tight">Home & Care Home Programs</h1>
         <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
           We coordinate expert personalized care procedures across central Houston, Sugar Land, Pearland, and surrounding neighborhoods.
